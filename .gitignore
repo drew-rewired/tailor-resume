@@ -1,0 +1,11 @@
+
+# Secrets / credentials (security hygiene)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p8
+*service-account*.json
+credentials*.json
+secrets*.json
