@@ -26,9 +26,11 @@ mkdir -p ~/.claude/commands && curl -fsSL https://raw.githubusercontent.com/drew
 **Windows**
 
 ```powershell
-curl.exe -fsSL https://raw.githubusercontent.com/drew-rewired/tailor-resume/main/tailor-resume-skill.md -o "$env:USERPROFILE\.claude\commands\tailor-resume.md"
-curl.exe -fsSL https://raw.githubusercontent.com/drew-rewired/tailor-resume/main/tailor-resume-setup-skill.md -o "$env:USERPROFILE\.claude\commands\tailor-resume-setup.md"
+curl.exe --create-dirs -fsSL https://raw.githubusercontent.com/drew-rewired/tailor-resume/main/tailor-resume-skill.md -o "$env:USERPROFILE\.claude\commands\tailor-resume.md"
+curl.exe --create-dirs -fsSL https://raw.githubusercontent.com/drew-rewired/tailor-resume/main/tailor-resume-setup-skill.md -o "$env:USERPROFILE\.claude\commands\tailor-resume-setup.md"
 ```
+
+Run this in PowerShell — not `cmd.exe`, and note it's `curl.exe`, not plain `curl` (PowerShell 5.1, the default on most Windows 11 machines, aliases bare `curl` to a different command that will fail on this).
 
 Restart Claude Code, then type `/tailor-resume`. Onboarding starts automatically the first time — no file to create or edit yourself.
 
