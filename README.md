@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/version-1.1-000000?style=flat-square" alt="version">&nbsp;<img src="https://img.shields.io/badge/free-open%20source-111111?style=flat-square" alt="free">&nbsp;<img src="https://img.shields.io/badge/Claude%20Code-skill-CC0000?style=flat-square" alt="Claude Code skill">
+<img src="https://img.shields.io/badge/version-1.2-000000?style=flat-square" alt="version">&nbsp;<img src="https://img.shields.io/badge/free-open%20source-111111?style=flat-square" alt="free">&nbsp;<img src="https://img.shields.io/badge/Claude%20Code-skill-CC0000?style=flat-square" alt="Claude Code skill">
 
 <br>
 
@@ -65,6 +65,8 @@ Most people have real, regularly-used skills that never made it onto a formal re
 | Bullet Priority | Every resume bullet ranked HIGH/MID/LOW for this role |
 | Action Items | Concrete edits to make before you submit |
 | Projected Score | What your score becomes if you make those edits — and a straight answer on whether it's worth it |
+
+Every brief ends by asking if anything in Keywords Missing is actually experience you have. Say so, and it'll ask whether to use it for just this one application or save it to your resume file for good — every time, fresh, never assumed.
 
 ## On tokens / cost
 
