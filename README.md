@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/version-1.0-000000?style=flat-square" alt="version">&nbsp;<img src="https://img.shields.io/badge/free-open%20source-111111?style=flat-square" alt="free">&nbsp;<img src="https://img.shields.io/badge/Claude%20Code-skill-CC0000?style=flat-square" alt="Claude Code skill">
+<img src="https://img.shields.io/badge/version-1.1-000000?style=flat-square" alt="version">&nbsp;<img src="https://img.shields.io/badge/free-open%20source-111111?style=flat-square" alt="free">&nbsp;<img src="https://img.shields.io/badge/Claude%20Code-skill-CC0000?style=flat-square" alt="Claude Code skill">
 
 <br>
 
@@ -44,7 +44,7 @@ This is not a resume writer. It never invents experience, tools, or metrics you 
 
 ## How it works
 
-**First launch:** run `/tailor-resume` once. There's no template to fill out — you'll be walked through a short conversation (name and title, a summary, your core skills, your work history job by job, and a section for real experience that never made it onto a formal resume). Claude builds your resume file from your answers and saves it to `~/.tailor-resume/master-resume.md` on your own machine. Nothing is uploaded anywhere.
+**First launch:** run `/tailor-resume` once. You'll be asked if you already have a resume — paste the text or point to the file and Claude pulls the details out, then confirms anything unclear with you. No resume handy? It walks you through a short conversation instead (name and title, a summary, your core skills, your work history job by job, and a section for real experience that never made it onto a formal resume). Either way, Claude builds your resume file and saves it to `~/.tailor-resume/master-resume.md` on your own machine. Nothing is uploaded anywhere — it's a local file Claude Code reads on your computer.
 
 **After that:** just run `/tailor-resume`, paste a job description, and read the brief.
 

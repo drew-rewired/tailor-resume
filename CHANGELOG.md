@@ -4,6 +4,13 @@ All notable changes to the Tailor Resume skill are documented here.
 
 ---
 
+## [1.1] — 2026-08-21
+
+### Added
+- **Existing-resume path in onboarding** — first launch now asks whether you already have a resume to paste in or point to a file, and extracts the structure directly instead of always starting from a blank Q&A. Confirmed Experience is still asked every time regardless of path, since that section is never on a formal resume by definition.
+
+---
+
 ## [1.0] — 2026-08-21
 
 - Initial release
