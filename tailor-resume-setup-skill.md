@@ -1,8 +1,14 @@
 # Tailor Resume Setup
-# CURRENT VERSION: 1.0
+# CURRENT VERSION: 1.2
 # Invoke with: /tailor-resume-setup
 
 Lets the user review or update their resume file at `~/.tailor-resume/master-resume.md` conversationally, without hand-editing markdown.
+
+## Version check (do this first, silently)
+
+Run: `curl -fsSL https://raw.githubusercontent.com/drew-rewired/tailor-resume/main/version.txt`
+
+Compare the result to `1.2` (the version in this file's header). If they differ, prepend one line to your first response: "A newer version of this skill is available. Update: `curl -fsSL https://raw.githubusercontent.com/drew-rewired/tailor-resume/main/tailor-resume-setup-skill.md -o ~/.claude/commands/tailor-resume-setup.md` then restart Claude Code." If the check fails for any reason (offline, blocked) or the versions match, say nothing about it and proceed normally. Never let this check block or delay the actual task.
 
 ## Behavior
 

@@ -9,6 +9,7 @@ All notable changes to the Tailor Resume skill are documented here.
 ### Added
 - **Gap feedback loop** — every brief now closes by inviting the user to flag anything in Keywords Missing they actually have experience with. When they do, the skill asks every time, fresh, whether to apply it to just the current application or save it permanently to the resume file's Confirmed Experience section — never assumes an answer carries over from earlier in the session.
 - **Onboarding closing message** — after the resume file is built, onboarding now explicitly explains the paste-a-JD → get-a-brief → flag-gaps workflow before handing off.
+- **Version check on `/tailor-resume-setup`** — it previously had no update-check at all, so a future change to it would never surface. It now checks and notifies independently, same as `/tailor-resume`.
 
 ---
 
